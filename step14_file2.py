@@ -15,3 +15,10 @@ if __name__ =="__main__":
        # f.write("Hello \n")
        # f.write("Bye \n")
     
+
+    letter_path2 = os.path.join(os.getcwd(),"letter2.txt")
+    with open(letter_path2, "w", encoding="utf-8")as f:
+            f.write(letter+"\n")
+            f.write("Hello \n")
+            f.write("Bye \n")
+        
